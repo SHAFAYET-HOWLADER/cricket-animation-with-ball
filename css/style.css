@@ -26,10 +26,30 @@ img{
 /*-------all common css  start-------*/
 
 /*------- css animatio start-------*/
-
-#math{
+#nature{
     background-color: green;
     padding: 122px 0px;
+    animation: safayet 5s ease-in-out infinite;
+}
+@keyframes safayet{
+   0%{
+       background-color: green;
+   }
+   15%{
+        background-color: coral;
+   }
+   30%{
+       background-color: gold;
+   }
+   50%{
+       background-color: pink;
+   }
+   65%{
+       background-color: forestgreen;
+   }
+   100%{
+       background-color: green;
+   }
 }
 #bat{
     height: 250px;
@@ -38,18 +58,17 @@ img{
     margin-left: 100px;
     transition: transform 1s ease;
 }
-#math:hover #bat{
+#nature:hover #bat{
    transform: rotate(-110deg);
    transform-origin: top center;
 }
-#math:hover #ball{
+#nature:hover #ball{
     transform: translate(980px, 200px);
-  
 }
 #ball{
     height: 30px;
     width: 30px;
-    transition: transform 1s ease-in-out 1s;
+    transition: transform 1s ease-out 0.9s;
 }
 /*------- css  animation start-------*/
     
